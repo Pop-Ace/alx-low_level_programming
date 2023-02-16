@@ -1,0 +1,3 @@
+Learning C programming Language
+stdio and stdout
+variables...
