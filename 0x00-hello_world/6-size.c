@@ -1,20 +1,17 @@
 #include <stdio.h>
 /**
-* main - A program that prints the size of various types on the computer types
+* main - A program that prints the size of various types on the computer
 * Return 0 (success)
 */
 int main(void)
 {
-	char a;
-	int b;
-	long int c;
-	long long int d;
-	float f;
-
-printf("size of a char: %lu bytes(s)\n", (unsigned long)sizeof(a));
-printf("size of an int: %lu bytes(s)\n", (unsigned long)sizeof(b));
-printf("size of a long int: %lu bytes(s)\n", (unsigned long)sizeof(c));
-printf("size of a long long int: %lu bytes(s)\n", (unsigned long)sizeof(d));
-printf("size of a float: %lu bytes(s)\n", (unsigned long)sizeof(f));
+printf("Size of char: %ld byte(s)\n", sizeof(char));
+printf("Size of short: %ld byte(s)\n", sizeof(short));
+printf("Size of int: %ld byte(s)\n", sizeof(int));
+printf("Size of long: %ld byte(s)\n", sizeof(long));
+printf("Size of long long: %ld byte(s)\n", sizeof(long long));
+printf("Size of float: %ld byte(s)\n", sizeof(float));
+printf("Size of double: %ld byte(s)\n", sizeof(double));
+printf("Size of long double: %ld byte(s)\n", sizeof(long double));
 return (0);
 }
