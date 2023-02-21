@@ -1,4 +1,4 @@
-#include "main.h"
+#include "Main.h"
 
 /**
  * print_sign - Entry point
