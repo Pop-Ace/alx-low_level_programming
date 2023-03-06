@@ -9,7 +9,16 @@
  */
 char *_strchr(char *s, char c)
 {
-	while (*s && *s != c)
-		s++;
-	return ((char *)s);
+	int	i;
+
+	i = 0;
+	while (s[i])
+	{
+		if (s[i] == (char)c)
+			return ((char *) &s[i]);
+		i++;
+	}
+	if ((char) !c)
+		return ((char *) &s[i]);
+	return (0);
 }
