@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
+#include <ctype.h>
 
 /**
  * main - prints the result of the addition, followed by a new line
