@@ -35,5 +35,4 @@ char *_strdup(char *str)
 		/* This copies input string to the new string */
 	}
 	copy[len] = '\0';
-	return (copy);
-}
+	return (copy);}
