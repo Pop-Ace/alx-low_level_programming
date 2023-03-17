@@ -30,4 +30,5 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	}
 	/* Set the allocated memory to zero */
 	memset(ptr, 0, total_size);
-	return (ptr);}
+	return (ptr);
+}
