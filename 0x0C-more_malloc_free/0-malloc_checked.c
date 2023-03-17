@@ -19,3 +19,4 @@ void *malloc_checked(unsigned int b)
 		exit(98); /* If malloc failed, terminate the program with exit status 98 */
 	}
 	return (ptr);
+}
