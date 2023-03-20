@@ -2,7 +2,7 @@
 
 #Resources
 
-* 0x0d. Structures.pdf
+* 0x0D. Structures.pdf
 * struct (C programming language)
 * Documentation: structures
 * 0x0d. Typedef and structures.pdf
