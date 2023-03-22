@@ -3,18 +3,18 @@
 # Resources
 
 <a href>
-*  Function Pointer in C
-* Pointers to functions
-* Function Pointers in C / C++
-* why pointers to functions?
-* Everything you need to know about pointers in C
+<li>Function Pointer in C</li>
+<li>Pointers to functions</li>
+<li>Function Pointers in C / C++</li>
+<li>why pointers to functions?</li>
+<li>Everything you need to know about pointers in C</li>
 </a>
 
 # General
 <a href>
-* What are function pointers and how to use them
-* What does a function pointer exactly hold
-* Where does a function pointer point to in the virtual memory
+<li>What are function pointers and how to use them</li>
+<li>What does a function pointer exactly hold</li>
+<li>Where does a function pointer point to in the virtual memory</li>
 </a>
 
 # Function Pointers in C
@@ -23,4 +23,4 @@ Function pointers are variables that hold the address of a function in memory. T
 
 Here's an example of a function pointer declaration:
 
-<pre> int (*myFunc)(int, int); </pre>
+<pre><code> int (*myFunc)(int, int); </pre></code>
