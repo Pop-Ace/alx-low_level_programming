@@ -29,7 +29,7 @@ size_t print_listint_safe(const listint_t *head)
 		else
 		{
 			next = prev->next;
-			printf("print address and number-> [%p] %d\n", (void *)next, next->n);
+			printf("-> [%p] %d\n", (void *)next, next->n);
 			break;
 		}
 	}
