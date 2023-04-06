@@ -21,7 +21,7 @@ size_t print_listint_safe(const listint_t *head)
 	{
 		printf("[%p] %d\n", (void *)prev, prev->n);
 		total++;
-		/* If next pointer points to previous, break the loop */ 
+	/* If next pointer points to previous, break the loop */
 		if (prev > prev->next)
 		{
 			prev = prev->next;
