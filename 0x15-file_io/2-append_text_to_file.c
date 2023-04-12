@@ -11,7 +11,7 @@
 int append_text_to_file(const char *filename, char *text_content)
 {
 	int fildes;
-       	int length;
+	int length;
 	int write_context;
 
 	/* checking if filename is empty */
